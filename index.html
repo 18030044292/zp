@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<link rel="stylesheet" href="./css/animate.css">
+	<script type="text/javascript" src="./lib/wow.js"></script>
+</head>
+<body>
+	<div>
+		<div>
+			<img src="./images/pc/1.png" alt="" class="wow bounceIn" style="visibility: visible; animation-name: bounceIn;">
+			<img src="./images/pc/2.png" alt="" class="wow bounceIn" style="visibility: visible; animation-name: bounceIn;">
+			<img src="./images/pc/3.png" alt=""  class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
+			<img src="./images/pc/4.png" alt=""  class="wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+			<img src="./images/pc/5.png" alt=""  class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
+		</div>
+		<div>	
+			<img src="./images/rn/1.png" alt="" class="wow slideInLeft" style="visibility: hidden; animation-name: none;">
+			<img src="./images/rn/2.png" alt="" class="wow bounceIn" style="visibility: hidden; animation-name: none;">
+			<img src="./images/rn/3.png" alt=""  class="wow bounceInRight" style="visibility: hidden; animation-name: none;">
+			<img src="./images/rn/4.png" alt=""  class="wow bounceIn" style="visibility: hidden; animation-name: none;">
+			<img src="./images/rn/5.png" alt="" class="wow slideInLeft" style="visibility: hidden; animation-name: none;" >
+			<img src="./images/rn/6.png" alt=""  class="wow bounceIn" style="visibility: hidden; animation-name: none;">
+			<img src="./images/rn/7.png" alt=""  class="wow bounceInRight" style="visibility: hidden; animation-name: none;">
+		</div>
+		<div>
+				<img src="./images/dangao/1.png" alt="" class="wow bounceIn" style="visibility: visible; animation-name: bounceIn;">
+			<img src="./images/dangao/2.png" alt="" class="wow slideInLeft" style="visibility: hidden; animation-name: none;">
+			<img src="./images/dangao/3.png" alt="" class="wow bounceInRight" style="visibility: hidden; animation-name: none;">
+			<img src="./images/dangao/4.png" alt="" class="wow bounceIn" style="visibility: hidden; animation-name: none;">
+			<img src="./images/dangao/5.png" alt=""  class="wow slideInLeft" style="visibility: hidden; animation-name: none;">
+			<img src="./images/dangao/6.png" alt="" class="wow bounceInRight" style="visibility: hidden; animation-name: none;">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+		window.onload = function(){
+			var w = new WOW({
+				  boxClass: 'wow',
+			      animateClass: 'animated',
+			      offset: 300,// 设定动画发生所需的偏移量
+			      mobile: true // 设定是否支持移动设备
+			});
+			w.init();
+		}
+	</script>
+</html>
